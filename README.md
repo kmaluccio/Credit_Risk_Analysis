@@ -67,6 +67,6 @@ Easy ensemble adaboost classifier: balanced accuracy score of about 93%
 	- the high risk had a precision rate of 7% with a recall score of 91% and F1 score 14%
 
 ## Summary
-Overall, the results tell us that the best machine learning model is ****** based on the OUTCOME HERE (USE PERCENTAGES FROM ABOVE SCORES). The recommendation(s) on which model to use includes ***** because REASON. 
+Overall, the results tell us that the best machine learning model is the easy ensemble Adaboost classifier based on the both the accuracy score as well as the precision rate/recall scores for both low and high risk. As you read above, all scores: the accuracy score, the precision rate and recall scores for low/high risk are the highest in this sampling compared to all other samplings (over, under, combination of over/under, balanced ensemble). We want a balanced accuracy score closest to 1 and a high precision and recall; however, a higher recall is more important than precision in this case because we would rather predict there is risk when there is not as opposed to predicting no risk when risk is present. It is possible to consider the F1 score if it is agreed that precision and sensitivity have the same importance. Thus, recommendation on which model to use is the easy ensemble adaboost classifier algorithm for the reasons we just listed and based on the scores presented in the results above. 
 
 
